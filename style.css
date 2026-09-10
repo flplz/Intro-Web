@@ -1,0 +1,144 @@
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    padding: 40px 20px;
+    color: #1f1f1f;
+}
+
+#titulo {
+    font-family: sans-serif;
+    color: #380b61;
+    text-align: center;
+    margin: 0 0 10px;
+}
+
+#subtitulo {
+    font-family: sans-serif;
+    color: #380b61;
+    text-align: center;
+    margin: 0 0 20px;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+input,
+select,
+textarea,
+button {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    color: #59429d;
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
+    background: #e0e0f8;
+    outline: none;
+}
+
+.campo select option {
+    padding: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
+    width: 100%;
+    max-width: 26em;
+    padding: 0.6em 0.7em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+    display: block;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 0.5em;
+    accent-color: #59429d;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+    width: 100%;
+    max-width: 100%;
+}
+
+.grupo {
+    margin-bottom: 1em;
+}
+
+.botao {
+    display: block;
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin: 1.5em auto 0;
+    color: #ffffff;
+    padding: 0.6em 1.2em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+
+.botao,
+select {
+    cursor: pointer;
+}
+.check{
+    display: inline-block;
+}
+.check label {
+    color: #59429d;
+}
+
+@media (max-width: 600px) {
+    form {
+        padding: 18px;
+    }
+
+    .campo input[type="text"],
+    .campo input[type="email"],
+    .campo select,
+    .campo textarea {
+        max-width: 100%;
+    }
+}
